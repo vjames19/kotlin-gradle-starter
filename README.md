@@ -7,7 +7,7 @@ Starter kit for [Kotlin](http://kotlinlang.org/), using [gradle](https://gradle.
 This project contains a simple `Hello World` application.
 
 ```kotlin
-import org.jooby.Jooby
+import org.jooby.Jooby.*
 import org.jooby.Kooby
 
 class App : Kooby({
@@ -18,7 +18,7 @@ class App : Kooby({
 })
 
 fun main(args: Array<String>) {
-    Jooby.run(::App, args)
+    run(::App, args)
 }
 ```
 
